@@ -41,6 +41,10 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    width: 100%;
+    max-width: 1740px;
+    margin: 0 auto;
+    font-family: "Montserrat";
 }
 
 /*    HEADER    */
@@ -55,7 +59,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 .logo a {
@@ -111,6 +115,7 @@ header {
 .profile_icon {
     display: flex;
     align-items: center;
+    margin-right: 80px;
 }
 
 .avatar {
@@ -122,11 +127,49 @@ header {
 
 .arrow-pointing-down {
     cursor: pointer;
-    margin-right: 80px;
+}
+
+/* SPLITTER */
+
+.splitter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
 }
 
 /* NAV */
 
 nav a {
     color: #E9E9E9;
+    margin-left: 60px;
+    font-weight: 300;
+}
+
+.main_nav div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.supported_nav div {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+/* MAIN */
+
+main {
+    
+}
+
+main .big_picture img {
+    width: 100%;
+}
+
+main .tournaments {
+    width: 100%;
+    min-width: 480px;
+    background: red;
 }
