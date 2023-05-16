@@ -164,12 +164,34 @@ main {
     
 }
 
+main h1 {
+    margin-top: 27px;
+    margin-left: 81px;
+    font-size: 24px;
+}
+
 main .big_picture img {
     width: 100%;
+}
+
+main .top_team {
+    width: 100%;
+    max-width: 100%;
+    background: pink;
+}
+
+main .small_blocks {
+    margin-left: 19px;
 }
 
 main .tournaments {
     width: 100%;
     min-width: 480px;
     background: red;
+}
+
+main .streams {
+    width: 100%;
+    min-width: 480px;
+    background: yellow;
 }
