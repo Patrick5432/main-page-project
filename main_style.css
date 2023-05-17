@@ -169,7 +169,7 @@ main span {
 }
 
 main h1 {
-    margin-top: 27px;
+    padding-top: 27px;
     margin-left: 81px;
     font-size: 24px;
     color: #66FC6C;
@@ -184,11 +184,13 @@ main .top_team {
     width: 100%;
     max-width: 100%;
     background: #303331;
+    border-radius: 30px;
 }
 
 main .team_nav {
     display: flex;
     justify-content: space-around;
+    font-weight: 700;
     margin-top: 26px;
     margin-bottom: 18px;
     padding-top: 20px;
@@ -200,14 +202,128 @@ main .small_blocks {
     margin-left: 19px;
 }
 
+main .streams {
+    width: 100%;
+    min-width: 480px;
+    background: #303331;
+}
+
+/* TOP_TEAMS */
+
+.top_teams {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top_teams a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top_teams span {
+    margin-top: 21px;
+    margin-bottom: 18px;
+}
+
+.top_teams div {
+    border-bottom: 2px solid #292929;
+}
+
+.top_teams .team_4 {
+    border: none;
+}
+
+.top_team .switch {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+    margin-top: 47px;
+}
+
+.points {
+    display: flex;
+    margin-right: 85px;
+}
+
+.points .point {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #66FC6C;
+}
+
+#first_point {
+    cursor: pointer;
+    background: #66FC6C;
+}
+
+#second_point {
+    cursor: pointer;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#thirty_point {
+    cursor: pointer;
+}
+
+.top_team .chapter {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 85px;
+}
+
+.top_team .chapter a {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: 1px solid #66FC6C;
+    background: #66FC6C;
+    border-radius: 15px;
+    color: #292929;
+    font-weight: 600;
+}
+
+/* TOURNAMENTS */
+
 main .tournaments {
     width: 100%;
     min-width: 480px;
     background: #303331;
 }
 
-main .streams {
-    width: 100%;
-    min-width: 480px;
-    background: #303331;
+.slider_tournaments {
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.rectangle {
+    width: 134px;
+    height: 100px;
+    background: #292929;
+    border-radius: 20px;
+}
+
+#second_rectangle {
+    margin-right: 13px;
+    margin-left: 13px;
+}
+
+.tournaments .switch {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 23px;
+    padding-bottom: 20px;
+}
+
+
+
+.streams {
+    margin-top: 16px;
 }
