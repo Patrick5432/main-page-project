@@ -202,12 +202,6 @@ main .small_blocks {
     margin-left: 19px;
 }
 
-main .streams {
-    width: 100%;
-    min-width: 480px;
-    background: #303331;
-}
-
 /* TOP_TEAMS */
 
 .top_teams {
@@ -294,6 +288,7 @@ main .tournaments {
     width: 100%;
     min-width: 480px;
     background: #303331;
+    border-radius: 30px;
 }
 
 .slider_tournaments {
@@ -320,10 +315,51 @@ main .tournaments {
     align-items: center;
     margin-top: 23px;
     padding-bottom: 20px;
+    margin-right: 26px;
+    padding-bottom: 20px;
 }
 
+.tournaments .chapter {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 35px;
+    border-radius: 100%;
+    background: #66FC6C;
+    cursor: pointer;
+}
 
+/* STREAMS */
+
+main .streams {
+    width: 100%;
+    min-width: 480px;
+    background: #303331;
+    border-radius: 30px;
+}
 
 .streams {
     margin-top: 16px;
+}
+
+.streams .switch {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 23px;
+    padding-bottom: 20px;
+    margin-right: 26px;
+    padding-bottom: 20px;
+}
+
+.streams .chapter {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 35px;
+    border-radius: 100%;
+    background: #66FC6C;
+    cursor: pointer;
 }
