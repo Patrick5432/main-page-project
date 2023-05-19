@@ -229,7 +229,7 @@ main .small_blocks {
     align-items: center;
     margin-left: 60px;
     margin-right: 60px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
     margin-top: 47px;
 }
 
@@ -312,7 +312,6 @@ main .tournaments {
     margin-top: 23px;
     padding-bottom: 20px;
     margin-right: 26px;
-    padding-bottom: 20px;
 }
 
 .tournaments .chapter {
@@ -343,10 +342,9 @@ main .streams {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 23px;
+    margin-top: 36px;
     padding-bottom: 20px;
     margin-right: 26px;
-    padding-bottom: 20px;
 }
 
 .streams .chapter {
@@ -358,4 +356,31 @@ main .streams {
     border-radius: 100%;
     background: #66FC6C;
     cursor: pointer;
+}
+
+/* TEAMS */
+
+.teams {
+    margin-top: 21px;
+    margin-bottom: 200px;
+}
+
+.teams .switch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.teams .switch img {
+    padding: 18px;
+    border-radius: 100%;
+    background: #66FC6C;
+}
+
+#arrow_right {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-left: 22px;
 }
